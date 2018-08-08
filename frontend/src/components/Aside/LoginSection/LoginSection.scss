@@ -1,0 +1,23 @@
+@import "font";
+
+.wrapper{
+    height : 200px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color : #F8F8F8;
+    border-bottom: 1px solid #DDDDDD;
+
+    .slogan{
+        font-size: 1.3rem;
+        text-align: center;
+        font-family: 'Nanum Gothic', sans-serif;
+        font-weight: 600;
+    }
+
+    .btn{
+        margin-top : 2rem;
+        margin-left: 4rem;
+    }
+}

@@ -1,0 +1,14 @@
+.wrapper{
+    border-bottom: 1px solid #DDDDDD;
+    padding-top: 1.3rem;
+    padding-bottom: 1.3rem;
+    cursor: pointer;
+    color : #4EC9C3;
+    font-size: 1rem;
+    font-weight: 600;
+    padding-left: 1rem;
+
+    &:hover{
+        background-color: #F8F8F8;
+    }
+}

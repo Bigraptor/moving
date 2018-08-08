@@ -1,0 +1,28 @@
+.wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 12rem;
+    margin-right: 6rem;
+
+    .thumbnail{
+        display: inline-block;
+        width: 60px;
+        height: 60px;
+        border-radius: 50%;
+        border: 0.1px solid rgb(128, 121, 121);
+
+        img{
+            width: 100%;
+        }
+    }
+
+    .nickname{
+        font-size: 1rem;
+        cursor: pointer;
+
+        &:hover{
+            color: rgb(122, 164, 219);
+        }
+    }
+}

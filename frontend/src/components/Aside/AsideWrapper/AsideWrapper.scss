@@ -1,0 +1,16 @@
+.wrapper{
+    box-shadow : 0 0 10px gray;
+    background-color: white;
+    position: fixed;
+    top:0;
+    right: 0;
+    width: 20rem;
+    height: 100%;
+    transform: translate(0%);
+    transition: transform 0.3s ease-in-out;
+    z-index: 2;
+
+    &.closed{
+        transform: translate(100%);
+    }
+}

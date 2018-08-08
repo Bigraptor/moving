@@ -1,0 +1,20 @@
+.wrapper{
+    height: 200px;
+    border-bottom: 1px solid #DDDDDD;
+
+    .thumbnail{
+        height: 80%;
+        text-align: center;
+
+        img{
+            margin-top: 0.5rem;
+            border: 0.1px solid rgb(128, 121, 121);
+            border-radius: 50%;
+            height: 90%;
+        }
+    }
+
+    .username{
+        text-align: center;
+    }
+}

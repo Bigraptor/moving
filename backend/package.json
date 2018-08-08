@@ -1,0 +1,35 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "cross-env NODE_PATH=src nodemon src",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Bigraptor",
+  "license": "MIT",
+  "dependencies": {
+    "cross-env": "^5.2.0",
+    "dotenv": "^6.0.0",
+    "joi": "^13.4.0",
+    "jsonwebtoken": "^8.3.0",
+    "koa": "^2.5.2",
+    "koa-bodyparser": "^4.2.1",
+    "koa-router": "^7.4.0",
+    "koa-static": "^5.0.0",
+    "mongoose": "^5.2.4",
+    "morgan": "^1.9.0",
+    "request": "^2.87.0",
+    "request-promise-native": "^1.0.5"
+  },
+  "devDependencies": {
+    "eslint": "^5.2.0",
+    "eslint-config-standard": "^11.0.0",
+    "eslint-plugin-import": "^2.13.0",
+    "eslint-plugin-node": "^7.0.1",
+    "eslint-plugin-promise": "^3.8.0",
+    "eslint-plugin-standard": "^3.1.0",
+    "nodemon": "^1.18.3"
+  }
+}

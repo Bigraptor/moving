@@ -1,0 +1,11 @@
+@import '~include-media/dist/include-media';
+
+$medium: 950px;
+$large: 1125;
+$huge: 1200px;
+
+$breakpoints: (
+  medium: $medium,
+  large: $large,
+  huge: $huge
+);

@@ -1,0 +1,25 @@
+.wrapper{
+
+    .label{
+        margin-top : 1rem;
+        font-size: 1.2rem;
+        color: rgb(153, 143, 143);
+        font-weight : 600;
+        margin-bottom : 0.5rem;
+        margin-left : 2.8rem;
+    }
+    .input{
+        margin-bottom : 1rem;
+        margin-left : 2.8rem;
+        input{
+            height: 2.5rem;
+            width : 91%;
+            font-size: 1.3rem;
+            border: 0.7px solid gray;
+
+            &::placeholder{
+                color : rgb(211, 201, 201);
+            }
+        }
+    }
+}

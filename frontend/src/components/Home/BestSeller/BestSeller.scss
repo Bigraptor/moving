@@ -1,0 +1,28 @@
+@import "responsive";
+    
+.wrapper{
+    display: flex;
+    margin-bottom : 0.5rem;
+    width: 50%;
+
+    .cover{
+        width: 15rem;
+        text-align: center;
+    }
+
+    .content{
+        
+        .title{
+            font-size: 1.2rem;
+            font-weight: 600;
+            margin-bottom: 0.5rem;
+        }
+
+        .author{
+            margin-bottom: 0.5rem;
+        }
+
+        .rank{
+        }
+    }
+}

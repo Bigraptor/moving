@@ -1,0 +1,14 @@
+@import "responsive";
+
+.wrapper{
+    main{
+        margin: 0 auto;
+
+        @include media(">huge") {
+            width: 1200px;
+        }
+        @include media("<huge") {
+            width: 1000px;
+        }
+    }
+}
